@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.lelpel.pomobluelw">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activities.TimerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.BoardSelectorActivity"
+            android:label="@string/title_activity_board_selector"
+            android:parentActivityName=".ui.activities.TimerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.lelpel.pomobluelw.ui.activities.TimerActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activities.StatsActivity"
+            android:label="@string/title_activity_stats"
+            android:parentActivityName=".ui.activities.TimerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.lelpel.pomobluelw.ui.activities.TimerActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".ui.activities.TimerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.lelpel.pomobluelw.ui.activities.TimerActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activities.SwipeTaskActivity"
+            android:label="@string/title_activity_swipe_task"
+            android:parentActivityName=".ui.activities.TimerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.lelpel.pomobluelw.ui.activities.TimerActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activities.TaskSelectorActivity"
+            android:label="@string/title_activity_swiped_tasks"
+            android:parentActivityName=".ui.activities.TimerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.lelpel.pomobluelw.ui.activities.TimerActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activities.test.SpinnerTaskSelectorActivity"
+            android:label="@string/title_activity_cute_task_selector"
+            android:parentActivityName=".ui.activities.TimerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.lelpel.pomobluelw.ui.activities.TimerActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activities.test.TestTaskSelectorActivity"
+            android:label="@string/title_activity_test_task_selector"
+            android:parentActivityName=".ui.activities.TimerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ua.lelpel.pomobluelw.ui.activities.TimerActivity" />
+        </activity>
+    </application>
+
+</manifest>

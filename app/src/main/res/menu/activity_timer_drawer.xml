@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/boards"
+            android:id="@+id/nav_boards" />
+        <item android:title="@string/tasks"
+            android:id="@+id/nav_my_tasks" />
+        <item android:title="@string/stats"
+            android:id="@+id/nav_stats" />
+    </group>
+
+    <item android:title="Support">
+        <menu>
+            <item android:title="@string/settings"
+                android:id="@+id/nav_settings" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+        </menu>
+    </item>
+
+
+</menu>

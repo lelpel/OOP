@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Синенький таймер</string>
+    <string name="action_settings">Настройки</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="personal">Личные</string>
+    <string name="pinned">Закрепленные</string>
+    <string name="recent">Недавние</string>
+    <string name="title_activity_board_selector">Выбор доски</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="title_activity_stats">Статистика</string>
+    <string name="title_activity_task_selector">Выбор задачи</string>
+    <string name="boards">Доски</string>
+    <string name="tasks">Задачи</string>
+    <string name="stats">Статистика</string>
+    <string name="settings">Настройки</string>
+    <string name="share">Поделиться</string>
+    <string name="title_activity_swiped_tasks">Выбор задачи</string>
+    <string name="title_activity_swipe_task"></string>
+</resources>
